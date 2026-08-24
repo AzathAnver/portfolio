@@ -533,3 +533,47 @@ profile-photo .img{
 
 }
 
+
+
+/* ---------------- Resume-aligned portfolio enhancements ---------------- */
+.profile-text h5 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.profile-text h1 {
+  margin-bottom: 10px;
+}
+
+.timeline-text {
+  color: #e5e5e5;
+}
+
+.project p {
+  line-height: 1.7;
+}
+
+.about-content li strong,
+.about-skills li strong {
+  color: #fed700;
+}
+
+.social a {
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .profile-text h1 {
+    font-size: 2.4rem;
+  }
+
+  .profile-photo {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: calc(100% - 30px);
+  }
+}
